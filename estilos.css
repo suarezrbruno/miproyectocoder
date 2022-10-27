@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.logo{
+    float: left;
+}
+.logo span{
+    color: #333;
+}
+
+.barra{
+    float: right;
+}
+
+.barra ul{
+    list-style: none;
+}
+
+.barra ul li{
+    display: inline-block;
+}
+.barra a{
+    text-decoration: none;
+    color: #fff;
+}
+.barra a:hover{
+    color: #333;
+}
+main{
+    height: calc( 100vh - 80px );
+    width: 100%;
+    background-image: url(img/Imagen\ de\ fondo\ 1.jpg);
+    background-size: cover;
+}
+
+.call{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 20px;
+    border: 4px solid black;
+    margin: 40px;
+    width: 21%;
+}
+h1{
+    color: #896;
+    margin-bottom: 25px;
+}
+.call p{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.call a{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.call a :hover{
+    background-color: #fff;
+}
+h2{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.sec{
+    height: 700px;
+    width: 100%;
+    background-color: #896;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.redes{
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.redes a{
+    color: #fff;
+}
+.redes a :hover{
+    color: rgba(0, 0, 0, 0.616);
+    text-shadow: 0 0 5px #fff;
+}
